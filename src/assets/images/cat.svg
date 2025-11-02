@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Cat body -->
+  <ellipse cx="100" cy="120" rx="50" ry="60" fill="#FF9E5E" stroke="#333" stroke-width="2"/>
+
+  <!-- Cat head -->
+  <circle cx="100" cy="60" r="40" fill="#FF9E5E" stroke="#333" stroke-width="2"/>
+
+  <!-- Left ear -->
+  <path d="M 70 30 L 60 10 L 80 40 Z" fill="#FF9E5E" stroke="#333" stroke-width="2"/>
+  <path d="M 70 30 L 65 20 L 75 35 Z" fill="#FFB380"/>
+
+  <!-- Right ear -->
+  <path d="M 130 30 L 140 10 L 120 40 Z" fill="#FF9E5E" stroke="#333" stroke-width="2"/>
+  <path d="M 130 30 L 135 20 L 125 35 Z" fill="#FFB380"/>
+
+  <!-- Left eye -->
+  <ellipse cx="85" cy="55" rx="8" ry="12" fill="#333"/>
+  <circle cx="85" cy="52" r="3" fill="white"/>
+
+  <!-- Right eye -->
+  <ellipse cx="115" cy="55" rx="8" ry="12" fill="#333"/>
+  <circle cx="115" cy="52" r="3" fill="white"/>
+
+  <!-- Nose -->
+  <path d="M 100 65 L 95 72 L 105 72 Z" fill="#FF6B9D"/>
+
+  <!-- Mouth -->
+  <path d="M 100 72 Q 90 78 85 75" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 100 72 Q 110 78 115 75" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Whiskers left -->
+  <line x1="60" y1="60" x2="30" y2="55" stroke="#333" stroke-width="1.5"/>
+  <line x1="60" y1="65" x2="30" y2="65" stroke="#333" stroke-width="1.5"/>
+  <line x1="60" y1="70" x2="30" y2="75" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Whiskers right -->
+  <line x1="140" y1="60" x2="170" y2="55" stroke="#333" stroke-width="1.5"/>
+  <line x1="140" y1="65" x2="170" y2="65" stroke="#333" stroke-width="1.5"/>
+  <line x1="140" y1="70" x2="170" y2="75" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Paws -->
+  <ellipse cx="75" cy="170" rx="12" ry="8" fill="#FF9E5E" stroke="#333" stroke-width="2"/>
+  <ellipse cx="125" cy="170" rx="12" ry="8" fill="#FF9E5E" stroke="#333" stroke-width="2"/>
+
+  <!-- Tail -->
+  <path d="M 145 130 Q 170 120 180 150" fill="none" stroke="#FF9E5E" stroke-width="15" stroke-linecap="round"/>
+  <path d="M 145 130 Q 170 120 180 150" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="130" rx="25" ry="35" fill="#FFD4B3" opacity="0.7"/>
+</svg>
